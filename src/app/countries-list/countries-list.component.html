@@ -1,0 +1,13 @@
+<div>Search:<input type="text" [(ngModel)]="inputStr" (keyup)="filter()"></div>
+<table border="1" >
+  <thead>
+    <tr ><td>Name</td><td>Native Name</td><td>Capital City</td><td>Population</td><td>Flag</td></tr>
+  </thead>
+    <tr class="td1" *ngFor="let country of filteredArr">
+      <td>{{country.name}}</td>
+      <td>{{country.nativeName}}</td>
+      <td>{{country.capital}}</td>
+      <td>{{country.population}}</td>
+      <td><img src={{country.flag}}></td>
+    </tr>
+</table>
