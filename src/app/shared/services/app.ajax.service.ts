@@ -7,7 +7,7 @@ export class AjaxService{
     constructor(private ajaxParamService: HttpClient){}
 
     getPerson(callback_p: (x: any) => void): void {
-        this.ajaxParamService.get("http://restcountries.eu/rest/v2/all").subscribe(callback_p);
+        this.ajaxParamService.get("https://restcountries.eu/rest/v2/all").subscribe(callback_p);
     }
 
 }

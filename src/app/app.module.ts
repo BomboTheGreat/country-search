@@ -10,13 +10,15 @@ import { RouterModule } from "@angular/router";
 import { HomeComponent } from './home/home.component';
 import { CountriesListComponent } from './countries-list/countries-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
     CountriesListComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,FormsModule, HttpClientModule,RouterModule,AppRoutingModule

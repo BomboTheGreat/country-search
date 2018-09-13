@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AjaxService } from '../shared/services/app.ajax.service'
+import { Pipe, PipeTransform } from '@angular/core';
+
 @Component({
   selector: 'app-countries-list',
   templateUrl: './countries-list.component.html',
