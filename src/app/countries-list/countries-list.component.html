@@ -1,6 +1,5 @@
 <main class="tab">
 <div class="search">Search:<input type="text" [(ngModel)]="inputStr" (keyup)="filter()"></div>
-
 <table border="1" >
     <tr class="head"><td>Name</td><td>Native Name</td><td>Capital City</td><td>Region</td><td>Population</td><td>Flag</td></tr>
     <tr class="td1" *ngFor="let country of filteredArr">
@@ -12,5 +11,4 @@
       <td><img src={{country.flag}}></td>
     </tr>
 </table>
-
 </main>

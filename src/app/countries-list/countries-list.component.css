@@ -1,5 +1,4 @@
 .search{
-    text-align: center;
     margin: 20px;
     font-size: 20px;
 }
@@ -7,7 +6,6 @@ table{
     padding: 5px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 40px;
 }
 .td1{
     background-color: lightpink;
@@ -20,6 +18,8 @@ img{
 .tab{
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin-left:40px;
 }
 .head td{
     background-color: rgb(252, 227, 102);
